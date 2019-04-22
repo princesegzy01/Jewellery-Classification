@@ -49,3 +49,17 @@ img size  | Training (loss) |Training(acc) | Test (loss) | Test(acc)
 32px vs 32px  | 0.2955 | 0.9013 | 0.6947| 0.8160
 64px vs 64px  | 0.2733 | 0.9040 | 0.4626 | 0.8560 
 128px vs 128px | 0.2389 | 0.9333 | 0.5702 | 0.8507
+
+### Install Dependencies
+1. Clone the repository on your system
+2. Install the necsessary packages such as
+	-	Python2 or Python3
+	-	Tensorflow
+	- 	Keras
+	- 	Numpy
+
+### Run Program
+``` python classifier.py```
+
+
+
