@@ -7,7 +7,7 @@ Jewellery Classification is a Convolutional neural network (CNN ) model that des
 ### Dataset
 
 sn  | Name |Training | Test 
----| --- | --- | --- | ---
+--- | --- | --- | --- 
 1  | Bracelet | 355  | 50
 2  | Earrings | 676  | 50
 3 | Necklace | 251  | 50
@@ -42,7 +42,7 @@ Keras ImageDataGenerator class is used to perform this operation.
 *  `metrics` = ['accuracy']
 
 
-###Result
+### Result
 
 img size  | Training (loss) |Training(acc) | Test (loss) | Test(acc) 
 ---| --- | --- | --- | ---
