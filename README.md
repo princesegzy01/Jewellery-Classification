@@ -1,10 +1,10 @@
 # Jewellery Classification
 
-###Introduction
+### Introduction
 
 Jewellery Classification is a Convolutional neural network (CNN ) model that designed for 5 different jewellries such as Bracelet, Earrings,  Necklace, Rings, Wristwatch and able to predict sample test data.
 
-###Dataset
+### Dataset
 
 sn  | Name |Training | Test 
 ---| --- | --- | --- | ---
@@ -14,7 +14,7 @@ sn  | Name |Training | Test
 4 | Rings | 183  | 50
 5 | Wristwatch | 121  | 50
 
-###Architecture
+### Architecture
 1. Convolutiona 2D layer with a specific requiring parameters such as `filter`:32, `kernel_size`: (3,3) image size
 2. MaxPooling to reduce number of features with pool size (2,2).
 3. Flatten layer to flatten matrix to vector so that it can be used in a dense layer
@@ -25,10 +25,12 @@ sn  | Name |Training | Test
 8. Added a dropout of 0.2 to keep the model from over fitting.
 9. finally added an output layer with a unit of 5 neurons(number of classes of datasets) and a softmax activation function.
 
-###Image Augmentation
+### Image Augmentation
 Due to the size of our dataset and class imbalance, we will not get the right accuracy. there is a need to increase the size of our dataset to get optimal result.
 
 Image Augmentations techniques are methods of artificially increasing the variations of images in our data-set by using horizontal/vertical flips, rotations, variations in brightness of images, horizontal/vertical shifts etc.
+
+Keras ImageDataGenerator class is used to perform this operation.
 
  
 ### Hyperparameter
